@@ -12,7 +12,7 @@
        <div class="showcase">
          
          <div class="showcase-banner">
-           <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner &amp; facewash packs" class="showcase-img">
+           <img src="{{asset('images/products/shampoo.jpg')}}" alt="shampoo, conditioner &amp; facewash packs" class="showcase-img">
          </div>
 
          <div class="showcase-content">
@@ -102,7 +102,7 @@
        <div class="showcase">
      
          <div class="showcase-banner">
-           <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold diamonds Earring" class="showcase-img">
+           <img src="{{asset('images/products/jewellery-1.jpg')}}" alt="Rose Gold diamonds Earring" class="showcase-img">
          </div>
      
          <div class="showcase-content">

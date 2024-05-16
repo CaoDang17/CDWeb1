@@ -78,7 +78,7 @@
           <div class="container">
     
             <a href="#" class="header-logo">
-              <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+              <img src="{{asset('images/logo/logo.svg')}}" alt="Anon's logo" width="120" height="36">
             </a>
     
             <div class="header-search-container">
@@ -156,7 +156,7 @@
     
                     <li class="panel-list-item">
                       <a href="#">
-                        <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                        <img src="{{asset('images/electronics-banner-1.jpg')}}" alt="headphone collection" width="250"
                           height="119">
                       </a>
                     </li>
@@ -191,7 +191,7 @@
     
                     <li class="panel-list-item">
                       <a href="#">
-                        <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                        <img src="{{asset('images/mens-banner.jpg')}}" alt="men's fashion" width="250" height="119">
                       </a>
                     </li>
     
@@ -225,7 +225,7 @@
     
                     <li class="panel-list-item">
                       <a href="#">
-                        <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                        <img src="{{asset('images/womens-banner.jpg')}}" alt="women's fashion" width="250" height="119">
                       </a>
                     </li>
     
@@ -259,7 +259,7 @@
     
                     <li class="panel-list-item">
                       <a href="#">
-                        <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                        <img src="{{asset('images/electronics-banner-2.jpg')}}" alt="mouse collection" width="250" height="119">
                       </a>
                     </li>
     
@@ -924,7 +924,7 @@
     
           <div class="container">
     
-            <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+            <img src="{{asset('images/payment.png" alt="payment method" class="payment-img">
     
             <p class="copyright">
               Copyright &copy; <a href="#">Anon</a> all rights reserved.
